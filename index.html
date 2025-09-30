@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Johannes Krisnawan Saputro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Port<span>folio</span></a>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#experience">Pengalaman</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3>Halo, Saya</h3>
+                    <h1>Johannes Krisnawan Saputro</h1>
+                    <h3>Desainer & Pengembang Web</h3>
+                    <p>Saya seorang profesional kreatif dengan pengalaman dalam desain UI/UX dan pengembangan web. Saya membuat pengalaman digital yang menarik dan intuitif untuk pengguna.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn">Lihat Projek</a>
+                        <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                    </div>
+<div class="social-icons">
+    <a href="https://www.linkedin.com/in/johannes-krisnawan-90717937a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/johankrisna" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://instagram.com/johankrisna/" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+                </div>
+                <div class="hero-image">
+                    <!-- Menggunakan gambar lokal dari folder assets/images -->
+                    <img src="assets/images/PPR_2057.jpg" alt="Foto Profil Johannes Krisnawan Saputro">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang Saya</h2>
+                <p>Mari berkenalan lebih dekat</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Saya adalah seorang profesional kreatif berbasis di Indonesia</h3>
+                    <p>Saya memiliki pengalaman dalam pengembangan web dan desain UI/UX. Saya berspesialisasi dalam membuat antarmuka pengguna yang menarik dan fungsional untuk aplikasi web dan mobile.</p>
+                    <p>Pendekatan saya menggabungkan pemikiran desain dengan solusi teknis untuk menciptakan produk digital yang tidak hanya indah secara visual tetapi juga memberikan pengalaman pengguna yang luar biasa.</p>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div>
+                                <h4>Nama</h4>
+                                <p>Johannes Krisnawan Saputro</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telepon</h4>
+                                <p>+62 881 3749 677</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>johankrisna08@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Lokasi</h4>
+                                <p>Yogyakarta, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Portofolio</h2>
+                <p>Proyek terbaru saya</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="design">Desain</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Aplikasi</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Menggunakan gambar lokal untuk semua proyek portfolio -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/images/Prangkokan.png" alt="Website Profil Desa Prangkokan">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Profil Desa Prangkokan</h3>
+                        <p>Website profil desa dengan fitur informasi lengkap mengenai geografi, demografi, dan potensi lokal.</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">HTML</span>
+                            <span class="portfolio-tag">CSS</span>
+                            <span class="portfolio-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+<div class="portfolio-item" data-category="web">
+    <div class="portfolio-img">
+        <img src="assets/images/Cuaca.png" alt="Aplikasi Cuaca Lengkap">
+    </div>
+    <div class="portfolio-content">
+        <h3>Aplikasi Cuaca Lengkap</h3>
+        <p>Aplikasi web interaktif untuk menampilkan cuaca terkini dan prakiraan 5 hari ke depan dengan data real-time dari OpenWeatherMap.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">HTML</span>
+            <span class="portfolio-tag">CSS</span>
+            <span class="portfolio-tag">JavaScript</span>
+            <span class="portfolio-tag">OpenWeatherMap API</span>
+        </div>
+    </div>
+</div>
+                <div class="portfolio-item" data-category="web">
+    <div class="portfolio-img">
+        <img src="assets/images/e-commerce.png" alt="E-Commerce TechShop">
+    </div>
+    <div class="portfolio-content">
+        <h3>E-Commerce TechShop</h3>
+        <p>Aplikasi web e-commerce modern dengan fitur katalog produk, keranjang belanja, checkout, serta notifikasi interaktif. Data tersimpan menggunakan LocalStorage sehingga pengalaman pengguna tetap terjaga.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">HTML</span>
+            <span class="portfolio-tag">CSS</span>
+            <span class="portfolio-tag">JavaScript</span>
+            <span class="portfolio-tag">LocalStorage</span>
+        </div>
+    </div>
+</div>
+
+                <div class="portfolio-item" data-category="app">
+    <div class="portfolio-img">
+        <img src="assets/images/project-habit-tracker.jpg" alt="Aplikasi Habit Tracker">
+    </div>
+    <div class="portfolio-content">
+        <h3>Aplikasi Habit Tracker</h3>
+        <p>Aplikasi mobile untuk membantu pengguna melacak dan membangun kebiasaan harian dengan fitur tambah, cek, dan hapus habit.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">React Native</span>
+            <span class="portfolio-tag">Expo</span>
+            <span class="portfolio-tag">TypeScript</span>
+        </div>
+    </div>
+</div>
+
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="assets/images/TaskFlow.png" alt="Sistem Manajemen Tugas (TaskFlow)">
+                    </div>
+                    <div class="portfolio-content">
+    <h3>Sistem Manajemen Tugas (TaskFlow)</h3>
+    <p>Platform web untuk membuat, mengelola, dan melacak tugas dengan antarmuka intuitif dan fitur filter, statistik, serta desain responsif.</p>
+    <div class="portfolio-tags">
+        <span class="portfolio-tag">PHP</span>
+        <span class="portfolio-tag">MySQL</span>
+        <span class="portfolio-tag">JavaScript</span>
+        <span class="portfolio-tag">HTML5</span>
+        <span class="portfolio-tag">CSS3</span>
+    </div>
+</div>
+
+                </div>
+                
+<div class="portfolio-item" data-category="web">
+    <div class="portfolio-img">
+        <img src="assets/images/todo-list.png" alt="Aplikasi Todo List Modern">
+    </div>
+    <div class="portfolio-content">
+        <h3>Aplikasi Todo List Modern</h3>
+        <p>Aplikasi web interaktif untuk mencatat, mencari, memfilter, dan mengelola daftar tugas dengan penyimpanan lokal menggunakan LocalStorage.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">HTML</span>
+            <span class="portfolio-tag">CSS</span>
+            <span class="portfolio-tag">JavaScript</span>
+            <span class="portfolio-tag">LocalStorage</span>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-item" data-category="web">
+    <div class="portfolio-img">
+        <img src="assets/images/Kalkulator.png" alt="Aplikasi Kalkulator Sederhana">
+    </div>
+    <div class="portfolio-content">
+        <h3>Aplikasi Kalkulator Sederhana</h3>
+        <p>Kalkulator web interaktif dengan desain modern, fitur operasi dasar, dukungan keyboard, memori, serta riwayat perhitungan.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">HTML</span>
+            <span class="portfolio-tag">CSS</span>
+            <span class="portfolio-tag">JavaScript</span>
+            <span class="portfolio-tag">Font Awesome</span>
+        </div>
+    </div>
+</div>
+
+                
+                <div class="portfolio-item" data-category="web">
+    <div class="portfolio-img">
+        <img src="assets/images/Ar-TataSurya.png" alt="Proyek Simulasi Tata Surya Interaktif">
+    </div>
+    <div class="portfolio-content">
+        <h3>Simulasi Tata Surya Interaktif</h3>
+        <p>Website interaktif berbasis Three.js yang menampilkan model 3D tata surya lengkap dengan orbit, kontrol kecepatan, dan mode AR sederhana.</p>
+        <div class="portfolio-tags">
+            <span class="portfolio-tag">Three.js</span>
+            <span class="portfolio-tag">JavaScript</span>
+            <span class="portfolio-tag">WebXR</span>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pengalaman</h2>
+                <p>Perjalanan karier profesional</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - Sekarang</span>
+                        <h3>Senior UI/UX Designer</h3>
+                        <h4>Perusahaan Teknologi Global</h4>
+                        <p>Memimpin tim desain dalam menciptakan pengalaman pengguna yang luar biasa untuk berbagai produk digital. Bertanggung jawab atas penelitian pengguna, pembuatan prototipe, dan pengujian kegunaan.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2019 - 2021</span>
+                        <h3>Web Developer</h3>
+                        <h4>Startup Digital</h4>
+                        <p>Mengembangkan dan memelihara aplikasi web menggunakan teknologi modern seperti React.js dan Node.js. Berkolaborasi dengan tim lintas fungsi untuk memberikan fitur baru dan meningkatkan kinerja.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2017 - 2019</span>
+                        <h3>Frontend Developer</h3>
+                        <h4>Agency Kreatif</h4>
+                        <p>Membuat antarmuka pengguna yang responsif dan menarik untuk berbagai klien. Menerapkan desain dari Figma ke kode yang efisien dan dapat diakses.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2015 - 2017</span>
+                        <h3>Desainer Grafis</h3>
+                        <h4>Studio Desain</h4>
+                        <p>Membuat materi pemasaran visual untuk klien termasuk brosur, poster, dan konten media sosial. Mengembangkan identitas merek untuk bisnis lokal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kontak</h2>
+                <p>Hubungi saya</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Lokasi</h3>
+                            <p>Yogyakarta, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Telepon</h3>
+                            <p>+62 881 3749 677</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>johankrisna08@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Website</h3>
+                            <p>www.johannesportfolio.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="formKontak">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subjek" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Tentang Saya</h3>
+                    <p>Desainer dan pengembang web dengan hasrat menciptakan solusi digital yang indah dan fungsional. Saya berdedikasi untuk memberikan pengalaman pengguna yang luar biasa.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Link Cepat</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Beranda</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> Tentang</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portofolio</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Layanan</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Desain UI/UX</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Pengembangan Web</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Aplikasi Mobile</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Desain Branding</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Konsultasi IT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Berlangganan</h3>
+                    <p>Berlangganan untuk mendapatkan pembaruan terbaru dan penawaran khusus.</p>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Anda">
+                        <button class="btn" style="margin-top: 15px; width: 100%">Langganan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Johannes Krisnawan Saputro. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
